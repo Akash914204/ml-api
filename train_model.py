@@ -5,7 +5,7 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
 # Set the version manually
-model_version = "v4.0"
+model_version = "v5.0"
 model_filename = f"model_{model_version}.pkl"
 
 # Train the model
