@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Define the /version route to check model version
 @app.route('/version', methods=['GET'])
 def version():
-    return jsonify({"version": "v2.0"})
+    return jsonify({"version": "v3.0"})
 
 # Define the /predict route to handle prediction requests
 @app.route('/predict', methods=['POST'])
